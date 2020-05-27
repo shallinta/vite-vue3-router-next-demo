@@ -1,0 +1,12 @@
+$primary-color: color("indigo", "base") !default;
+
+$secondary-color: color("pink", "lighten-2") !default;
+
+$success-color: color("green", "accent-2") !default;
+$error-color: color("red", "accent-3") !default;
+$link-color: color("light-blue", "lighten-1") !default;
+// $link-color: color("deep-orange", "accent-3") !default;
+
+.waves-effect.waves-primary .waves-ripple {
+  background-color: color("indigo", "accent-1");
+}
