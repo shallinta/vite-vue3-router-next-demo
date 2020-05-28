@@ -35,5 +35,5 @@ export const useEffect = (effectHandler, dependencies) => {
     if (isFunction(effectCleaner)) {
       onCleanUp(effectCleaner);
     }
-  }, { immediate: true, deep: true });
+  }, { immediate: true, deep: true } as WatchOptions);
 }
